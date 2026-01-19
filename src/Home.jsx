@@ -1,7 +1,7 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { MdAdd, MdDelete, MdEdit } from "react-icons/md";
-import { ClockLoader, HashLoader, RiseLoader } from "react-spinners";
+import { HashLoader } from "react-spinners";
 
 function Home() {
   const [users, setusers] = useState([]);
